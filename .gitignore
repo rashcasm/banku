@@ -1,0 +1,24 @@
+# secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# runtime state and personal data
+data/
+*.log
+*.db
+*.db-*
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# editors / os
+.DS_Store
+*.swp
